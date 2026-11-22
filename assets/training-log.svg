@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 174" width="1000" height="174" role="img" aria-label="Training log: Advanced Diploma in IT (expected Nov 2027) and National Diploma in IT, Vaal University of Technology"><title>Training log: Advanced Diploma in IT (expected Nov 2027) and National Diploma in IT, Vaal University of Technology</title>
+<defs>
+  <pattern id="corr" width="14" height="40" patternUnits="userSpaceOnUse">
+    <rect width="7" height="40" fill="#fff" fill-opacity="0.02"/><rect x="7" width="7" height="40" fill="#000" fill-opacity="0.18"/>
+  </pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity="0.25"/></pattern>
+  <radialGradient id="vig" cx="0.5" cy="0.4" r="0.9"><stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.6"/></radialGradient>
+</defs>
+<style>
+  .m { font-family: "Courier New", Courier, monospace; font-weight: 700; }
+  .flick  { animation: flick 7s step-end infinite; }
+  .flick2 { animation: flick 7s step-end infinite; animation-delay: -2.3s; }
+  .flickN { animation: flick 5s step-end infinite; animation-delay: -1.2s; }
+  .slow   { animation: slow 11s step-end infinite; }
+  .soft   { animation: soft 9s step-end infinite; }
+  .soft2  { animation: soft 9s step-end infinite; animation-delay: -4s; }
+  .blink  { animation: blink 1.1s step-end infinite; }
+  .spark  { animation: spark 8s step-end infinite; }
+  @keyframes flick {
+    0% {opacity:1} 4% {opacity:.15} 5% {opacity:.9} 6% {opacity:.1} 8% {opacity:1}
+    41% {opacity:.85} 42% {opacity:1} 55% {opacity:.3} 56% {opacity:1}
+    58% {opacity:.12} 59% {opacity:.7} 60% {opacity:.05} 63% {opacity:1} 88% {opacity:.6} 89% {opacity:1} 100% {opacity:1}
+  }
+  @keyframes slow { 0% {opacity:.85} 30% {opacity:.4} 32% {opacity:.85} 70% {opacity:.55} 72% {opacity:.2} 75% {opacity:.85} 100% {opacity:.85} }
+  @keyframes soft { 0% {opacity:1} 18% {opacity:.55} 19% {opacity:1} 62% {opacity:.7} 63% {opacity:.4} 64% {opacity:1} 100% {opacity:1} }
+  @keyframes blink { 0% {opacity:1} 50% {opacity:0} 100% {opacity:1} }
+  @keyframes spark { 0% {opacity:0} 52% {opacity:0} 53% {opacity:1} 54% {opacity:0} 55% {opacity:.8} 56% {opacity:0} 100% {opacity:0} }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1000" height="174" fill="#0d0f0d"/><rect width="1000" height="174" fill="url(#corr)"/>
+<rect width="1000" height="30" fill="#131613"/><rect y="29" width="1000" height="1" fill="#2a2f29"/>
+<rect class="slow" x="12" y="11" width="8" height="8" fill="#7a2e0a"/>
+<text class="m " x="30" y="20" font-size="12" fill="#7d8f7a" letter-spacing="2">training_log.db</text>
+<text class="m " x="986" y="20" font-size="11" fill="#4a4f47" text-anchor="end" letter-spacing="2">FILE 03</text>
+<text class="m " x="24" y="68" font-size="12" fill="#7d8f7a" letter-spacing="2">QUALIFICATION</text>
+<text class="m " x="620" y="68" font-size="12" fill="#7d8f7a" letter-spacing="2">INSTITUTION</text>
+<rect x="24" y="76" width="952" height="1" fill="#2a2f29"/>
+<rect class="slow" x="24" y="95" width="8" height="8" fill="#7a2e0a"/>
+<text class="m soft" x="44" y="106" font-size="15" fill="#b8c9b3">Advanced Diploma in Information Technology</text>
+<text class="m flick" x="432" y="106" font-size="15" fill="#ffd27a">(expected Nov 2027)</text>
+<text class="m " x="620" y="106" font-size="15" fill="#b8c9b3">Vaal University of Technology</text>
+<rect x="24" y="120" width="952" height="1" fill="#2a2f29" opacity="0.6"/>
+<rect class="slow" x="24" y="137" width="8" height="8" fill="#7a2e0a"/>
+<text class="m " x="44" y="148" font-size="15" fill="#b8c9b3">National Diploma in Information Technology</text>
+<text class="m " x="620" y="148" font-size="15" fill="#b8c9b3">Vaal University of Technology</text>
+<rect x="24" y="162" width="952" height="1" fill="#2a2f29" opacity="0.6"/>
+<rect width="1000" height="174" fill="url(#scan)" opacity="0.5"/>
+<rect x="0.5" y="0.5" width="999" height="173" fill="none" stroke="#2a2f29"/>
+<path d="M0 12 L0 0 L12 0" fill="none" stroke="#7d8f7a" stroke-width="1.5"/>
+<path d="M1000 12 L1000 0 L988 0" fill="none" stroke="#7d8f7a" stroke-width="1.5"/>
+<path d="M0 162 L0 174 L12 174" fill="none" stroke="#7d8f7a" stroke-width="1.5"/>
+<path d="M1000 162 L1000 174 L988 174" fill="none" stroke="#7d8f7a" stroke-width="1.5"/>
+<rect width="1000" height="174" fill="url(#vig)"/></svg>
